@@ -1,0 +1,25 @@
+@import '../../node_modules/@syncfusion/ej2-base/styles/material.css';
+@import '../../node_modules/@syncfusion/ej2-icons/styles/material.css';
+@import '../../node_modules/@syncfusion/ej2-inputs/styles/material.css';
+@import '../../node_modules/@syncfusion/ej2-popups/styles/material.css';
+@import '../../node_modules/@syncfusion/ej2-buttons/styles/material.css';
+@import '../../node_modules/@syncfusion/ej2-splitbuttons/styles/material.css';
+@import '../../node_modules/@syncfusion/ej2-navigations/styles/material.css';
+@import '../../node_modules/@syncfusion/ej2-layouts/styles/material.css';
+@import '../../node_modules/@syncfusion/ej2-grids/styles/material.css';
+@import "../../node_modules/@syncfusion/ej2-react-filemanager/styles/material.css";
+
+.finder-container {
+    display: grid;
+    grid-template-columns: [first] 300px [line2] auto [line3] 200px [end];
+    grid-template-rows: [row1-start]50px [row1-end] auto [row2-end];
+}
+
+.files {
+    grid-column: line2/end;
+}
+
+.control-section {
+    background-color: aliceblue;
+}
+

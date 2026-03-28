@@ -1,0 +1,24 @@
+.blur-button {
+  background-color: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(50px);
+  color: white;
+  font-size: 16px;
+  padding: 10px 20px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.blur-button:hover {
+  background-color: rgb(43, 40, 58);
+}
+
+.invalid {
+  color: rgb(255, 255, 255);
+  font-style: italic;
+}
+
+.error {
+  color: rgb(0, 0, 0);
+  font-size: 14px;
+}
