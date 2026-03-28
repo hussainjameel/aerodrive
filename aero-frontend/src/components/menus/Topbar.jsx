@@ -14,6 +14,8 @@ const TopBarItem = forwardRef((props, ref) => {
   const hover = props.forceHover
     ? "bg-gray-100/30 dark:bg-gray-400/40"
     : "hover:(bg-gray-100/30 dark:bg-gray-400/40)";
+    // console.log("TopBarItem props:", props);
+
   return (
     <div
       ref={ref}
