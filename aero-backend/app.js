@@ -31,7 +31,7 @@ app.use(cors({
   origin: [
     "http://localhost:5173",           // Vite local development (default port)
     "http://localhost:3000",           // if you sometimes use 3000
-    "https://aerodrive-frontend.onrender.com"   // ← Your live frontend URL (will update after deploy)
+    "https://aerodrive-2.onrender.com"   // ← Your live frontend URL (will update after deploy)
   ],
   methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
   allowedHeaders: ["Content-Type", "Authorization"],
