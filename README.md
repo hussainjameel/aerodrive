@@ -62,21 +62,24 @@ MinIO Object Storage (Files)
 
 ### 1. Clone the Repository
 
-```bash
+```
 git clone https://github.com/yourusername/aerodrive.git
 cd aerodrive
+```
 
 Backend Setup
+```
 cd backend
 npm install
-# Create .env file and add your credentials
-cp .env.example .env
 npm start
+```
 
-Frontend Setup (Open a new terminal)
+Frontend Setup
+```
 cd frontend
 npm install
 npm run dev
+```
 
 📦 Deployment
 Deployed using Render with three services:
@@ -86,14 +89,17 @@ Web Service: Main Backend (Express API)
 Web Service: Syncfusion File Server
 
 Environment Variables:
+```
 Backend:
 envMONGO_URI=mongodb+srv://...
 JWT_SECRET=your_jwt_secret
 MINIO_ACCESS=your_minio_access_key
 MINIO_SECRET=your_minio_secret_key
 Frontend:
-envVITE_API_URL=https://aerodrive-backend.onrender.com
-VITE_FILE_MANAGER_URL=https://aerodrive-fileserver.onrender.com
+envVITE_API_URL=https://.....
+VITE_FILE_MANAGER_URL=https://aerodrive....
+```
+
 📊 Project Highlights
 
 Successfully integrated Syncfusion File Manager with a separate Node file server
