@@ -65,21 +65,21 @@ git clone https://github.com/hussainjameel/aerodrive.git
 cd aerodrive
 ```
 
-Backend Setup
+### 2. Backend Setup
 ```
 cd backend
 npm install
 npm start
 ```
 
-Frontend Setup
+### 3. Frontend Setup
 ```
 cd frontend
 npm install
 npm run dev
 ```
 
-📦 Deployment
+## 📦 Deployment
 Deployed using Render with three services:
 
 Static Site: Frontend (React Vite)
