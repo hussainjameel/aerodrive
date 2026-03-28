@@ -47,9 +47,7 @@ MinIO Object Storage (Files)
 
 ## 🚀 Live Demo
 
-- **Frontend**: https://aerodrive-frontend.onrender.com
-- **Backend API**: https://aerodrive-backend.onrender.com
-- **File Server**: https://aerodrive-fileserver.onrender.com
+- **Aerodrive**: https://aerodrive-2.onrender.com/
 
 > ⚠️ **Note**: Services are hosted on Render’s free tier. Expect a 10–30 second cold start delay on first visit.
 
@@ -63,7 +61,7 @@ MinIO Object Storage (Files)
 ### 1. Clone the Repository
 
 ```
-git clone https://github.com/yourusername/aerodrive.git
+git clone https://github.com/hussainjameel/aerodrive.git
 cd aerodrive
 ```
 
@@ -95,16 +93,11 @@ envMONGO_URI=mongodb+srv://...
 JWT_SECRET=your_jwt_secret
 MINIO_ACCESS=your_minio_access_key
 MINIO_SECRET=your_minio_secret_key
+
 Frontend:
 envVITE_API_URL=https://.....
 VITE_FILE_MANAGER_URL=https://aerodrive....
 ```
 
-📊 Project Highlights
-
-Successfully integrated Syncfusion File Manager with a separate Node file server
-Implemented multi-service deployment on Render
-Handled CORS, environment variables, and cold starts
-Built a responsive desktop-style UI with smooth interactions
 
 
